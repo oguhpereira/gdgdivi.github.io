@@ -30,16 +30,17 @@ const Header = () => (
     <div className="container">
       <Brand />
       <div id="nav-menu" className="navbar-menu navbar-end">
-        <a className="navbar-item" href="#intro">
+        <a className="scroll navbar-item" href="#intro">
           O que fazemos
         </a>
-        <a className="navbar-item" href="#team">
+        <a className="scroll navbar-item" href="#team">
           Equipe
         </a>
-        <a className="navbar-item" href="#contact">
+        <a className="scroll navbar-item" href="#contact">
           Contato
         </a>
       </div>
+
     </div>
   </Nav>
 )

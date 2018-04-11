@@ -7,8 +7,8 @@ import './index.scss'
 const Index = ({ children }) => (
   
   <div>
-    <link rel="icon" href="./favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="./static/favicon/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./static/favicon/favicon.ico" type="image/x-icon"/>
     <Helmet
       title="Google Developer Group Divinópolis"
       meta={[
