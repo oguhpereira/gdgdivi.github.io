@@ -29,3 +29,9 @@ svg {
   max-width: 100%;
   width: auto;
 }
+.box-user{
+  &:hover{
+   transform: scale(1.05);
+   transition: transform .45s; 
+  }
+}

@@ -31,7 +31,7 @@ const SocialContainer = styled.ul`
 `
 
 const Profile = ({ profile }) => (
-  <div className="column is-6">
+  <div className="column is-6 box-user">
     <Card>
       <ProfileAvatar imageUrl={profile.image} />
       <div>
