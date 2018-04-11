@@ -16,6 +16,7 @@ const Wrapper = styled.a`
     color: ${({ color }) => `${color}`};
     opacity: 1;
     transform: scale(0.86);
+    transition: transform .5s;
   }
 
   :active {

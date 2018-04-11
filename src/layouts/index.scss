@@ -28,7 +28,11 @@ svg {
   max-height: 100%;
   max-width: 100%;
   width: auto;
+  &:hover{
+    transition: all .5s;
+  }
 }
+
 .box-user{
   &:hover{
    transform: scale(1.05);
